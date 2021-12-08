@@ -18,14 +18,18 @@ With the app I want to be able to make a record of my training time, reps and se
 
 - [Project Description](#fitness-tracker)
 - [Table of contents](#table-of-contents)
-- 
+- [Roadmap](#roadmap)
+- [License](#license)
 
 ## Roadmap
 
 
-- [ ] Primeira Iteração - registar tempo de começo e fim(usar tecla s na command Line);
-- [ ] Segunda Iteração - registar tempos de intervalo (5m, 2m, 1m, 30s ou opcional), tocar sino após término;
-- [ ] Terceira Iteração - adicionar lista de exercícios à base de dados, perguntar o exercício antes de cada timer ou start, registar o número de reps ao utilizar o timer de descanso;
-	- [ ] Perguntar se é o mesmo exercício ou outro;
-- [ ] Quarta Iteração - criar webapp utilizando thymeleaf;
-- [ ] Quinta iteração - loggin para registo com gmail ou apple;
+- [ ] Able to record duration of training (start and finish time also);
+- [ ] Able to control rest times(5, 2 and 1 minutes, 30 seconds or choosen duration), play some sound after the elapsed time;
+- [ ] Add exercises to the database. Show option to choose exercise and fill rep;
+- [ ] WebApp using Thymeleaf;
+- [ ] Allow login and storing of data on a server.
+
+## License
+
+[MIT License](TODO)
