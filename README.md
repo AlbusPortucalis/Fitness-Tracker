@@ -32,4 +32,4 @@ With the app I want to be able to make a record of my training time, reps and se
 
 ## License
 
-[MIT License](TODO)
+[MIT License](https://github.com/danielbranco14/Fitness-Tracker/blob/master/LICENSE.txt)
