@@ -3,13 +3,37 @@
  */
 package Fitness.Tracker;
 
+import java.util.Scanner;
+
 public class App {
+
+
+
     public String getGreeting() {
-        return "Hello World!";
+        return "Ready to perform?";
     }
 
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input = "";
         System.out.println(new App().getGreeting());
+
+
+            try{
+                while(true) {
+                    System.out.println(Menu.getMenu(input));
+                    input = scanner.nextLine();
+                    if (input.equals("t")) {
+                        System.out.println("Nice effort!! Bye.");
+                        break;
+                    }
+                }
+            } finally {
+                scanner.close();
+            }
+
+
+
     }
 }

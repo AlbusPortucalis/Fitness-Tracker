@@ -3,12 +3,19 @@
  */
 package Fitness.Tracker;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
+    static App classUnderTest;
+    @BeforeAll static void creatInstance(){
+        classUnderTest = new App();
+    }
     @Test void appHasAGreeting() {
-        App classUnderTest = new App();
+
         assertNotNull(classUnderTest.getGreeting(), "app should have a greeting");
     }
+
+
 }
